@@ -25,3 +25,8 @@ body{
 .icontainer-last p{
     margin-left: 45px;
 }
+.count{
+    font-size: 50px;
+    color: rgb(248, 244, 244);
+    margin: 10px 0px;
+}
