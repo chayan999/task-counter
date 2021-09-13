@@ -1,0 +1,27 @@
+body{
+    background: rgb(2, 5, 73);
+}
+.container-main{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.icon-container{
+    width: 350px;
+    text-align: center;
+}
+.icon-container i{
+    color:aliceblue;
+    font-size: 160px;
+}
+.icon-container p{
+    color:aliceblue;
+    margin-top: 17px;
+    font-size:25px  ;
+    text-align: center;
+}
+.icontainer-last p{
+    margin-left: 45px;
+}
