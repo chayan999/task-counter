@@ -13,7 +13,7 @@ counter.forEach((counter) => {
         const inr = targetCount / 100;
         if (startingCount < targetCount) {
             counter.innerHTML = `${Math.round(startingCount + inr)}`;
-            setTimeout(updateCounter, 10);
+            setTimeout(updateCounter, 50);
         } else {
             counter.innerHTML = targetCount
         }

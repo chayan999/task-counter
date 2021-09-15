@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&family=DM+Mono:wght@300&family=Fira+Code:wght@300;400&family=Graduate&family=Zen+Tokyo+Zoo&display=swap');
+/* font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'DM Mono', monospace;
+font-family: 'Fira Code', monospace;
+font-family: 'Graduate', cursive;
+font-family: 'Zen Tokyo Zoo', cursive; */
+
 body{
     background: rgb(2, 5, 73);
 }
@@ -19,14 +30,18 @@ body{
 .icon-container p{
     color:aliceblue;
     margin-top: 17px;
-    font-size:25px  ;
+    font-size:40px  ;
     text-align: center;
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .icontainer-last p{
     margin-left: 45px;
 }
 .count{
     font-size: 50px;
-    color: rgb(248, 244, 244);
+    color: rgba(228, 35, 51, 0.986);
     margin: 10px 0px;
+    font-family: 'Fira Code', monospace;
+    text-shadow: 2px 3px 1px rgb(128, 125, 125);
 }
